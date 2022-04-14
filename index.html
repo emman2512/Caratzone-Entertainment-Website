@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Caratzone</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dependencies/bootstrap.min.css">
+    <script src="dependencies/jquery.min.js"></script>
+    <script src="dependencies/popper.min.js"></script>
+    <script src="dependencies/bootstrap.min.js"></script>
+
+    <style>
+     body{
+         box-sizing: border-box;
+         display: none;
+     }
+        .greetings{
+            float:center;
+
+        }
+        .col{text-align: justify;}
+        .carousel-item {
+           text-align: center;
+}
+.content{
+    text-align: justify;line-height: 300%;
+
+}
+    .darkText{
+        font-family: 'Oswald', sans-serif;
+        color:rgb(80,80,80)
+    }
+
+    @media only screen and (max-width: 900px) {
+ 
+        .content{
+            text-align: justify;line-height: 200%;
+
+
+        }
+        .slideImage{
+            width: 100%;
+
+        }
+       
+}
+
+
+
+.divider{
+
+    color: rgb(80,80,80); border: 1px solid rgb(80,80,80);
+}
+.foot{
+
+color:rgb(220,220,220) ;
+padding:15px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#introduction,#awards_container{
+
+  display:none;
+
+}
+
+    </style>
+</head>
+<body>
+    <nav class=" navbar navbar-expand-sm navbar-light" style="background-color: #f8f9fa;">
+        <img src="resources/homepage/svtlogo.png" style="width:100px"> 
+        <ul class="navbar-nav "style="">
+          <li class="nav-item" >
+            
+            <a class="nav-link" href="index.html" style="font-size: 20px;"><img src="resources/homepage/homeIcon.png" style="width:35px">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.php"  style="font-size: 20px;"><img src="resources/homepage/seventeenIcon.png" style="width:35px">SVT Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="accounts.php"  style="font-size: 20px;"><img src="resources/homepage/profile.png" style="width:35px">Accounts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="shop.php"  style="font-size: 20px;"><img src="resources/homepage/shopIcon.png" style="width:35px">Shop</a>
+          </li>
+          
+        </ul>
+      </nav>
+
+      <div id="front_slide" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#front_slide" data-slide-to="0" class="active"></li>
+          <li data-target="#front_slide" data-slide-to="1"></li>
+          <li data-target="#front_slide" data-slide-to="2"></li>
+          <li data-target="#front_slide" data-slide-to="3"></li>
+        </ul>
+       
+        <div class="carousel-inner bg-light" >
+          <div class="carousel-item active" style="text-align: center;">
+            <img class="slideImage" src="resources/homepage/slide1.jpg"  width="100%"  >
+          </div>
+          <div class="carousel-item">
+             <img class="slideImage" src="resources/homepage/slide2.jpg" width="100%">
+          </div>
+          <div class="carousel-item">
+            <img class="slideImage" src="resources/homepage/slide3.jpg" alt="New York" width="100%">
+          </div>
+          <div class="carousel-item">
+           <img class="slideImage" src="resources/homepage/slide4.jpg" alt="New York" width="100%">
+          </div>
+        </div>
+        <a class="carousel-control-prev " href="#front_slide" data-slide="prev">
+          <span class="carousel-control-prev-icon "></span>
+        </a>
+        <a class="carousel-control-next" href="#front_slide" data-slide="next">
+          <span class="carousel-control-next-icon" ></span>
+        </a>
+      </div>
+    
+     
+     <div class="container-fluid" style="text-align: center;" id="introduction">
+        <div class="darkText" style="text-align: center; margin-top:3% ;margin-bottom:3% ;"><h2>SLIP INTO THE DIAMOND LIFE</h2><hr class="divider" style="width:80%;"></div> 
+      
+        <div class="row" style="text-align: center;">
+            <div class="col-md-1" ></div>
+            <div class="col-md-6 darkText content ">
+                SEVENTEEN is a huge idol group, with 13 members and 3 sub-units forming one team. By implementing a pre-debut system, SEVENTEEN’s training and debut preparation has been made open to the public through differentiated promotions such as live broadcasts. In May 2015, the members finally took their first step in the Korean music industry with their first mini album, ’17 CARAT’, which allowed them to rise as super rookies upon debut. The 3 different sub-units Hip-hop Team, Vocal Team and Performance Team) in the group also actively participated in album production. In addition, after climbing from locally known super rookies, to ‘self-production idols’ to ‘chyung-ryang-dols’ since their debut, SEVENTEEN has now grown into an internationally recognized K-Pop group with signature music and performances.</div>
+            <div class="col-md-4" >
+             <img src="resources/homepage/content1.jpg" style="width: 90%; ">
+            </div>
+          </div>
+    </div>
+
+    <div class="container-fluid" style="text-align: center; margin-top: 5%;" id="awards_container">
+       
+       
+      
+        <div class="row" style="text-align: center;">
+            <div class="col-md-1" ></div>
+            <div class="col-md-4" >
+             <img src="resources/homepage/awards.jpg" style="width: 90%;">
+            </div>
+            <div class="col-md-6 darkText content ">
+                
+                <div class="darkText" style="text-align: center; "><h2>AWARDS<span><img src="resources/homepage/trophy.png" style="width: 50px;"></span></h2><hr class="divider">
+               
+                   
+                       
+                   
+               
+                    <p style="text-align: justify;">- 2020 9th Gaon Chart Music Awards ‘Artist of the Year – Physical’ (3rd Quarter)’<br>
+                    
+                    - 2020 9th Gaon Chart Music Awards ‘Artist of the Year – Physical’ (1st Quarter)<br>
+                    - 2020 The 34th Golden Disk Awards ‘Album Part Main Award<br>
+                    - 2019 Mnet Asian Music Awards ‘Breakthrough Achievement’<br>
+                    - 2019 Mnet Asian Music Awards ‘Worldwide Fan’s Choice’<br>
+                    - 2019 11th Melon Music Awards ‘Stage of the Year’<br>
+                    - 2019 Asia Artist Awards Grand Prize – Album of the Year ‘An Ode’<br>
+                    - 2019 Asia Artist Awards ‘Singer Category – Best Icon’<br>
+                    - 2019 Asia Artist Awards ‘Singer Category – Best Social Artist’<br>
+                    - 2019 The 33rd Japan Gold Disc Award - New Artist of the Year<br>
+                    - 2019 The 33rd Japan Gold Disc Award - Best 3 New Artist<br>
+                    - 2019 The 28th Seoul Music Awards, Bonsang<br>
+                    - 2019 The 33th Golden Disk Awards, Album Bonsang<br>
+                    - 2018 MBC Entertainment Awards - Best Newcomer Award (SeungKwan)<br>
+                    - 2018 Mnet Asian Music Awards, Best Dance Performance (Male Group)<br>
+                    - 2018 Mnet Asian Music Awards, Best OST<br>
+                    
+                
+                    </p>
+                
+                    
+                </div>
+            </div>
+          </div>
+
+
+
+
+
+    </div>
+
+   
+
+   
+    
+    </div>
+    
+
+    <div class="foot bg-dark">
+
+        <h3>CARATZONE</h3>
+        <p>2021</p>
+       </div>
+        
+
+
+       <script> $(document).ready(function(){
+         $("body").fadeIn(2000);
+        $("#introduction").fadeIn(2000);$("#awards_container").fadeIn(2000);
+        
+       });</script>
+        
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
